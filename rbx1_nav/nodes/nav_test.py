@@ -30,9 +30,11 @@ from geometry_msgs.msg import Pose, PoseWithCovarianceStamped, Point, Quaternion
 from move_base_msgs.msg import MoveBaseAction, MoveBaseGoal
 from random import sample
 from math import pow, sqrt
+import pdb 
 
 class NavTest():
     def __init__(self):
+        pdb.set_trace()
         rospy.init_node('nav_test', anonymous=True)
         
         rospy.on_shutdown(self.shutdown)

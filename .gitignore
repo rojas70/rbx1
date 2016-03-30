@@ -1,0 +1,5 @@
+# Maps
+*.pgm
+
+# Python complied code
+*.pyc

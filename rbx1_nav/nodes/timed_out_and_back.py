@@ -21,7 +21,7 @@
     http://www.gnu.org/licenses/gpl.html
       
 """
-
+import pdb
 import rospy
 from geometry_msgs.msg import Twist
 from math import pi
@@ -109,6 +109,7 @@ class OutAndBack():
  
 if __name__ == '__main__':
     try:
+        pdb.set_trace()
         OutAndBack()
     except:
         rospy.loginfo("Out-and-Back node terminated.")

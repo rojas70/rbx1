@@ -25,9 +25,9 @@
   <node pkg="tf" type="static_transform_publisher" name="map_odom_broadcaster" args="0 0 0 0 0 0 /map /odom 100" />
   
   <!-- Start the navigation test -->
-  <node pkg="rbx1_nav" type="nav_test.py" name="nav_test" output="screen">
+  <!--node pkg="rbx1_nav" type="nav_test.py" name="nav_test" output="screen">
     <param name="rest_time" value="1" />
     <param name="fake_test" value="true" />
-  </node>
+  </node-->
   
 </launch>
